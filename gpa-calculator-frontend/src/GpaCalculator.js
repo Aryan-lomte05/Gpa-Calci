@@ -1713,7 +1713,7 @@ const subjectData = {
         {
           code: "216U06C101",
           name: "Applied Mathematics - I",
-          credits: 3,
+          credits: 4,
           components: [
             { name: "ESE", max: 50, passing: 0 },
             { name: "CA", max: 50, passing: 0 },
@@ -1728,7 +1728,7 @@ const subjectData = {
           components: [
             { name: "ESE", max: 50, passing: 0 },
             { name: "CA", max: 50, passing: 0 },
-            { name: "Tot1", max: 97, passing: 39, calculated: true }
+            { name: "Tot1", max: 100, passing: 40, calculated: true }
           ]
         },
         {
@@ -1738,7 +1738,7 @@ const subjectData = {
           components: [
             { name: "ESE", max: 50, passing: 0 },
             { name: "CA", max: 50, passing: 0 },
-            { name: "Tot1", max: 94, passing: 38, calculated: true }
+            { name: "Tot1", max: 100, passing: 40, calculated: true }
           ]
         },
         {
@@ -1746,7 +1746,7 @@ const subjectData = {
           name: "Python Programming",
           credits: 3,
           components: [
-            { name: "LABCA", max: 72, passing: 29 }
+            { name: "LABCA", max: 75, passing: 30 }
           ]
         },
         {
@@ -1754,7 +1754,7 @@ const subjectData = {
           name: "Engineering Physics Laboratory",
           credits: 1,
           components: [
-            { name: "LABCA", max: 49, passing: 20 }
+            { name: "LABCA", max: 50, passing: 20 }
           ]
         },
         {
@@ -1762,7 +1762,7 @@ const subjectData = {
           name: "Engineering Mechanics Laboratory",
           credits: 1,
           components: [
-            { name: "LABCA", max: 48, passing: 19 }
+            { name: "LABCA", max: 50, passing: 20 }
           ]
         },
         {
@@ -1770,7 +1770,7 @@ const subjectData = {
           name: "Presentation and Communication Skills",
           credits: 2,
           components: [
-            { name: "TuCA", max: 49, passing: 20 }
+            { name: "TuCA", max: 50, passing: 20 }
           ]
         },
         {
@@ -1778,11 +1778,11 @@ const subjectData = {
           name: "Basic Workshop Practice - I",
           credits: 2,
           components: [
-            { name: "LABCA", max: 44, passing: 18 }
+            { name: "LABCA", max: 50, passing: 20 }
           ]
         }
       ],
-      totalCredits: 18
+      totalCredits: 19
     },
     'Sem2': { // Semester 2 (P Group gets COMPS subjects)
       name: "F.Y. B.TECH. COMPUTER ENGINEERING SEM-I",
@@ -1790,7 +1790,7 @@ const subjectData = {
         {
           code: "216U06C101",
           name: "Applied Mathematics – I",
-          credits: 3,
+          credits: 4,
           components: [
             { name: "ESE", max: 50, passing: 0 },
             { name: "CA", max: 50, passing: 0 },
@@ -1823,7 +1823,9 @@ const subjectData = {
           name: "Elements of Electrical and Electronics Engineering",
           credits: 3,
           components: [
-            { name: "LABCA", max: 75, passing: 29 }
+              { name: "ESE", max: 50, passing: 0 },
+            { name: "CA", max: 50, passing: 0 },
+            { name: "Tot1", max: 100, passing: 40, calculated: true }
           ]
         },
         {
@@ -1831,7 +1833,7 @@ const subjectData = {
           name: "C Programming", // Python changes to C
           credits: 3,
           components: [
-            { name: "LABCA", max: 72, passing: 29 }
+            { name: "LABCA", max: 75, passing: 30 }
           ]
         },
         {
@@ -1839,7 +1841,7 @@ const subjectData = {
           name: "Engineering Chemistry Laboratory",
           credits: 1,
           components: [
-            { name: "LABCA", max: 49, passing: 20 }
+            { name: "LABCA", max: 50, passing: 20 }
           ]
         },
         {
@@ -1847,15 +1849,15 @@ const subjectData = {
           name: "Engineering Drawing Laboratory",
           credits: 1,
           components: [
-            { name: "LABCA", max: 49, passing: 20 }
+            { name: "LABCA", max: 50, passing: 20 }
           ]
         },
         {
           code: "216U06L106",
           name: "Elements of Electrical and Electronics Engineering Laboratory",
-          credits: 2,
+          credits: 1,
           components: [
-            { name: "LABCA", max: 47, passing: 19 }
+            { name: "LABCA", max: 50, passing: 20}
           ]
         },
         {
@@ -1885,7 +1887,7 @@ const subjectData = {
         {
           code: "216U06C101",
           name: "Applied Mathematics – I",
-          credits: 3,
+          credits: 4,
           components: [
             { name: "ESE", max: 50, passing: 0 },
             { name: "CA", max: 50, passing: 0 },
@@ -1962,7 +1964,7 @@ const subjectData = {
           ]
         }
       ],
-      totalCredits: 20
+      totalCredits: 21
     },
     'Sem2': { // Semester 2 (C Group gets CSBS subjects)
       name: "F.Y. B.TECH. COMPUTER SCIENCE & BUSINESS SYSTEMS SEM-I",
@@ -1970,7 +1972,7 @@ const subjectData = {
         {
           code: "216U06C101",
           name: "Applied Mathematics - I",
-          credits: 3,
+          credits: 4,
           components: [
             { name: "ESE", max: 50, passing: 0 },
             { name: "CA", max: 50, passing: 0 },
@@ -2047,7 +2049,7 @@ const subjectData = {
           ]
         }
       ],
-      totalCredits: 20
+      totalCredits: 21
     }
   }
 };
