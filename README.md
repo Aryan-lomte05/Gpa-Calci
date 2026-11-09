@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# GPA Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**SGPI and CGPA calculator for K. J. Somaiya School of Engineering, using the university's actual credit
+weightings so the number matches the official result.**
 
-## Available Scripts
+[![Live](https://img.shields.io/badge/live-gpa--calci-4BC8C0?style=flat-square)](https://gpa-calci-qymu.onrender.com)
+[![React](https://img.shields.io/badge/React-create--react--app-8B7CF6?style=flat-square)](#running-it)
 
-In the project directory, you can run:
+A generic GPA calculator gives students the wrong answer, because the result depends on the specific credit
+weighting of each course in the semester scheme. This one encodes the real scheme, so the output is the number
+that will actually appear on the result.
 
-### `npm start`
+## What it does
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Grade entry per course, with the correct credit weighting applied.
+- Computes SGPI for a semester and CGPA across semesters.
+- Works on a phone, which is where students check marks.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running it
 
-### `npm test`
+```bash
+npm install
+npm start           # http://localhost:3000
+npm run build       # production bundle
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Built with Create React App.
 
-### `npm run build`
+## Limits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Weightings are hardcoded for a specific scheme, so a syllabus revision needs a code change.
+- No account or persistence: entries are lost on reload.
+- Unofficial. The institute's published result is authoritative.
